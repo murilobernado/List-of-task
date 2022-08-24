@@ -118,3 +118,18 @@ body {
    background-color: #8df891; 
    text-decoration: line-through;
 }
+
+@media screen and (max-width: 573px) {
+    .container{
+        width: 75%;
+    }
+
+    #input-principal {
+        width: 70%;
+    }
+
+    .nome-tarefa{
+        word-wrap: break-word;
+    }
+
+}
